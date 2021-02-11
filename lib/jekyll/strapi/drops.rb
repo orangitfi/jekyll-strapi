@@ -8,6 +8,10 @@ module Jekyll
         @document = document
       end
 
+      def to_s
+        @document
+      end
+      
       def [](attribute)
         value = @document[attribute]
 
