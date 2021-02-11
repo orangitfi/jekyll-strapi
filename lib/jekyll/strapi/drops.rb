@@ -7,10 +7,6 @@ module Jekyll
       def initialize(document)
         @document = document
       end
-
-      def to_s
-        @document
-      end
       
       def [](attribute)
         value = @document[attribute]
