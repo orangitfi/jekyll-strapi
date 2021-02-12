@@ -5,7 +5,7 @@
 Add the "jekyll-strapi" gem to your Gemfile:
 
 ```
-gem "jekyll-strapi"
+gem 'jekyll-strapi', github: 'orangitfi/jekyll-strapi'
 ```
 
 Then add "jekyll-strapi" to your plugins in `_config.yml`:
@@ -30,6 +30,8 @@ strapi:
             type: article
             # Permalink used to generate the output files (eg. /articles/:id).
             permalink: /articles/:id/
+            # Optional custom query eg. ?author.id=1 (optional)
+            query: ?author.id=1
             # Layout file for this collection
             layout: strapi_article.html
             # Generate output files or not (default: false)
