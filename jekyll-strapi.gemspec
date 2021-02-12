@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.summary = "Strapi.io integration for Jekyll"
   spec.name = "jekyll-strapi"
   spec.license = "MIT"
-  spec.has_rdoc = false
   spec.require_paths = ["lib"]
   spec.description = spec.description = <<-DESC
     A Jekyll plugin for retrieving content from a Strapi API
